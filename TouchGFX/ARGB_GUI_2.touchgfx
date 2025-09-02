@@ -1,0 +1,1277 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "EntryScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "InitText",
+            "X": 181,
+            "Y": 124,
+            "Width": 122,
+            "Height": 24,
+            "TextId": "__SingleUse_1UIM",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 179,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "gackground",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "Slider",
+            "Name": "SliderRed",
+            "X": 13,
+            "Y": 107,
+            "Width": 287,
+            "Height": 32,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "railBack.png",
+            "BackgroundSelected": "RedRail.png",
+            "Indicator": "redKnob.png",
+            "BackgroundX": 16,
+            "BackgroundY": 11,
+            "IndicatorMax": 255,
+            "ValueMax": 255,
+            "InitValue": 255,
+            "Moveable": true
+          },
+          {
+            "Type": "Slider",
+            "Name": "SliderGreen",
+            "X": 13,
+            "Y": 158,
+            "Width": 287,
+            "Height": 32,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "railBack.png",
+            "BackgroundSelected": "greenRail.png",
+            "Indicator": "greenKnob.png",
+            "BackgroundX": 16,
+            "BackgroundY": 11,
+            "IndicatorMax": 255,
+            "ValueMax": 255,
+            "Moveable": true
+          },
+          {
+            "Type": "Slider",
+            "Name": "SliderBlue",
+            "X": 13,
+            "Y": 211,
+            "Width": 287,
+            "Height": 32,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "railBack.png",
+            "BackgroundSelected": "blueRail.png",
+            "Indicator": "blueKnob.png",
+            "BackgroundX": 16,
+            "BackgroundY": 11,
+            "IndicatorMax": 255,
+            "ValueMax": 255,
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "LedIndicator_0",
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "LedIndicator_1",
+            "X": 50,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "LedIndicator_2",
+            "X": 100,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "LedIndicator_3",
+            "X": 150,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "LedIndicator_4",
+            "X": 200,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "LedIndicator_5",
+            "X": 250,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "LedIndicator_6",
+            "X": 300,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "LedIndicator_7",
+            "X": 350,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "border_0",
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "LineWidth": 1.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "border_1",
+            "X": 50,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "LineWidth": 1.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "border_2",
+            "X": 100,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "LineWidth": 1.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "border_3",
+            "X": 150,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "LineWidth": 1.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "border_4",
+            "X": 200,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "LineWidth": 1.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "border_5",
+            "X": 250,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "LineWidth": 1.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "border_6",
+            "X": 300,
+            "Width": 50,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "LineWidth": 1.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "border_7",
+            "X": 350,
+            "Width": 50,
+            "Height": 60,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 25.0,
+            "CenterY": 40.0,
+            "Radius": 15.0,
+            "LineWidth": 1.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "ButtonIndicator_7",
+            "X": 350,
+            "Y": 15,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "blank50.png",
+                "ImagePressed": "bubbleBig.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "ButtonIndicator_6",
+            "X": 300,
+            "Y": 15,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "blank50.png",
+                "ImagePressed": "bubbleBig.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "ButtonIndicator_5",
+            "X": 250,
+            "Y": 15,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "blank50.png",
+                "ImagePressed": "bubbleBig.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "ButtonIndicator_4",
+            "X": 200,
+            "Y": 15,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "blank50.png",
+                "ImagePressed": "bubbleBig.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "ButtonIndicator_3",
+            "X": 150,
+            "Y": 15,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "blank50.png",
+                "ImagePressed": "bubbleBig.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "ButtonIndicator_2",
+            "X": 100,
+            "Y": 15,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "blank50.png",
+                "ImagePressed": "bubbleBig.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "ButtonIndicator_1",
+            "X": 50,
+            "Y": 15,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "blank50.png",
+                "ImagePressed": "bubbleBig.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "ButtonIndicator",
+            "Y": 15,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "blank50.png",
+                "ImagePressed": "bubbleBig.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "DownButton",
+            "X": 406,
+            "Y": 194,
+            "Width": 60,
+            "Height": 64,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "arrowDownBlue.png",
+                "ImagePressed": "arrowWhiteDown.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "UpButton",
+            "X": 406,
+            "Y": 107,
+            "Width": 60,
+            "Height": 59,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "arrowUpBlue.png",
+                "ImagePressed": "arrowWhiteUp.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "AnimationsButton",
+            "X": 406,
+            "Y": 10,
+            "Width": 60,
+            "Height": 61,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "playNormal.png",
+                "ImagePressed": "playWhite.png"
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "TimeCounterLabel",
+            "X": 366,
+            "Y": 107,
+            "Width": 19,
+            "Height": 30,
+            "TextId": "__SingleUse_K6ET",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 255,
+              "Blue": 238
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_3VQ7",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "TimeProgressBar",
+            "X": 370,
+            "Y": 158,
+            "Width": 10,
+            "Height": 100,
+            "FileNameProgress": "__generated\\alternate_theme_images_widgets_lineprogress_fillers_plain_normal_tiny_active_90.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 100.0,
+            "EndX": 5.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Round",
+            "FileNameBackground": "LbackRail100x10V.png",
+            "ProgressRangeMin": 1,
+            "ProgressRangeMax": 8,
+            "ProgressInitialValue": 1
+          },
+          {
+            "Type": "Image",
+            "Name": "selectedLed_0",
+            "X": 5,
+            "Y": 20,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "ledBubble.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "selectedLed_1",
+            "X": 55,
+            "Y": 20,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "ledBubble.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "selectedLed_2",
+            "X": 105,
+            "Y": 20,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "ledBubble.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "selectedLed_3",
+            "X": 155,
+            "Y": 20,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "ledBubble.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "selectedLed_4",
+            "X": 205,
+            "Y": 20,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "ledBubble.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "selectedLed_5",
+            "X": 255,
+            "Y": 20,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "ledBubble.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "selectedLed_6",
+            "X": 305,
+            "Y": 20,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "ledBubble.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "selectedLed_7",
+            "X": 355,
+            "Y": 20,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "ledBubble.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "RedValueText",
+            "X": 316,
+            "Y": 117,
+            "Width": 18,
+            "Height": 10,
+            "TextId": "__SingleUse_T9K3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_P82A",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "GreenValueText",
+            "X": 316,
+            "Y": 168,
+            "Width": 18,
+            "Height": 10,
+            "TextId": "__SingleUse_Y7GL",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_LCUQ",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BlueValueText",
+            "X": 316,
+            "Y": 221,
+            "Width": 18,
+            "Height": 10,
+            "TextId": "__SingleUse_IW2W",
+            "TextRotation": "0",
+            "Color": {
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_Q2BV",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "UpdateRed",
+            "Trigger": {
+              "Type": "TriggerSliderValueConfirmed",
+              "TriggerComponent": "SliderRed"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UpdateRed"
+            }
+          },
+          {
+            "InteractionName": "UpdateGreen",
+            "Trigger": {
+              "Type": "TriggerSliderValueConfirmed",
+              "TriggerComponent": "SliderGreen"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UpdateGreen"
+            }
+          },
+          {
+            "InteractionName": "UpdateBlue",
+            "Trigger": {
+              "Type": "TriggerSliderValueConfirmed",
+              "TriggerComponent": "SliderBlue"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UpdateBlue"
+            }
+          },
+          {
+            "InteractionName": "UpdateRedSlide",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "SliderRed"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UpdateRed"
+            }
+          },
+          {
+            "InteractionName": "UpdateGreenSlide",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "SliderGreen"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UpdateGreen"
+            }
+          },
+          {
+            "InteractionName": "UpdateBlueSlid",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "SliderBlue"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UpdateBlue"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          },
+          {
+            "InteractionName": "ButtonLed0",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonIndicator"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonLed0"
+            }
+          },
+          {
+            "InteractionName": "ButtonLed1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonIndicator_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonLed1"
+            }
+          },
+          {
+            "InteractionName": "ButtonLed2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonIndicator_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonLed2"
+            }
+          },
+          {
+            "InteractionName": "ButtonLed3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonIndicator_3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonLed3"
+            }
+          },
+          {
+            "InteractionName": "ButtonLed4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonIndicator_4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonLed4"
+            }
+          },
+          {
+            "InteractionName": "ButtonLed5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonIndicator_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonLed5"
+            }
+          },
+          {
+            "InteractionName": "ButtonLed6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonIndicator_6"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonLed6"
+            }
+          },
+          {
+            "InteractionName": "ButtonLed7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonIndicator_7"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonLed7"
+            }
+          },
+          {
+            "InteractionName": "ButtonUpClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "UpButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonUpClick"
+            }
+          },
+          {
+            "InteractionName": "ButtonDownClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "DownButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonDownClick"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          },
+          {
+            "InteractionName": "ChangeToAnim",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "AnimationsButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "BackB",
+            "X": 406,
+            "Y": 10,
+            "Width": 60,
+            "Height": 61,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "backBlue.png",
+                "ImagePressed": "backWhite.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "UploadPrebuildAnimation2",
+            "X": 298,
+            "Y": 136,
+            "Width": 60,
+            "Height": 60,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "playNormal.png",
+                "ImagePressed": "playWhite.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "UploadPrebuildAnimation3",
+            "X": 378,
+            "Y": 136,
+            "Width": 60,
+            "Height": 61,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "playNormal.png",
+                "ImagePressed": "playWhite.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "UploadAnimation",
+            "X": 40,
+            "Y": 136,
+            "Width": 60,
+            "Height": 61,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "uploadButtonBlue.png",
+                "ImagePressed": "uploadButtonWhite.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "UploadPrebuildAnimation1",
+            "X": 218,
+            "Y": 136,
+            "Width": 60,
+            "Height": 61,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "playNormal.png",
+                "ImagePressed": "playWhite.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "EraseBtn",
+            "X": 120,
+            "Y": 136,
+            "Width": 60,
+            "Height": 61,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "EraserButton.png",
+                "ImagePressed": "ErraserButtonWhite.png"
+              }
+            ]
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 208,
+            "Y": 126,
+            "Width": 240,
+            "Height": 81,
+            "RelativeFilename": "Border240x81.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "X": 253,
+            "Y": 196,
+            "Width": 150,
+            "Height": 50,
+            "RelativeFilename": "DefaultAnimationsText.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "LedsClearedMsg",
+            "X": 192,
+            "Y": 87,
+            "Width": 100,
+            "Height": 25,
+            "Visible": false,
+            "RelativeFilename": "LedsClearedMsg.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "LedsUpdatedMsg",
+            "X": 188,
+            "Y": 86,
+            "Width": 100,
+            "Height": 25,
+            "Visible": false,
+            "RelativeFilename": "LedsUpdatedMsg.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "BackToMain",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BackB"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "UploadAnimation",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "UploadAnimation"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UploadAnimationFun"
+            }
+          },
+          {
+            "InteractionName": "UploadPrebuild1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "UploadPrebuildAnimation1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UploadPrebuild1"
+            }
+          },
+          {
+            "InteractionName": "UploadPrebuild2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "UploadPrebuildAnimation2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UploadPrebuild2"
+            }
+          },
+          {
+            "InteractionName": "UploadPrebuild3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "UploadPrebuildAnimation3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UploadPrebuild3"
+            }
+          },
+          {
+            "InteractionName": "EraseAll",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "EraseBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "EraseAll"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "CustomContainer1",
+        "Width": 480,
+        "Height": 127,
+        "Components": [],
+        "Interactions": []
+      }
+    ],
+    "Name": "ARGB_GUI_2",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "EntryScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H750 Value line",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H750B-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}

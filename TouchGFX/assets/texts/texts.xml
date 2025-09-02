@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_1UIM" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Initialising...</Translation>
+      </Text>
+      <Text Id="__SingleUse_P82A" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">255</Translation>
+      </Text>
+      <Text Id="__SingleUse_LCUQ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q2BV" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="BlueTextWildcard" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_IW2W" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="GreenTextWildcard" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y7GL" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="RedTextWildcard" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">255</Translation>
+      </Text>
+      <Text Id="__SingleUse_T9K3" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_3VQ7" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="__SingleUse_K6ET" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="30" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0,1,2,3,4,5,6,7,8,9" />
+  </Typographies>
+</TextDatabase>
